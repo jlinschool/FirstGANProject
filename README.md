@@ -34,12 +34,18 @@ The following is an example output of a couple of epochs while the model is runn
 
 # Results 
 
-## Trial 1 (after 300 epochs)
+## Trial 1 (after ~300 epochs)
 
 Keep in mind that these are 28 x 28!
 
 <img width="698" alt="3001" src="https://user-images.githubusercontent.com/98007808/235822678-fc87441b-b492-41a2-bca3-8973df8222a6.png">
 <img width="706" alt="30002" src="https://user-images.githubusercontent.com/98007808/235822687-26630dbb-266f-46a3-9127-602ff153daa9.png">
 
+## Trial 2 (after ~40 epochs)
+
+These will be in 64 x 64.
+
+<img width="698" alt="4001" src="https://user-images.githubusercontent.com/98007808/235822901-e7cf8a73-14a9-4e20-8408-8048b6c04538.png">
+<img width="697" alt="4002" src="https://user-images.githubusercontent.com/98007808/235822911-f70bbf63-be88-4443-8cf5-116a6ad8b8ad.png">
 
 
