@@ -26,7 +26,7 @@ The images were originally placed inside of a Google Drive folder that is shared
 - saving of the models / overwriting every 5 models run (should be in same folder as code file)
 - printing of loss metrics as well as corresponding epoch iteration number
 
-Another important element of this training process was the 
+Another important element of this training process was the two distinct ouptut image sizes passed to the layers of the neural network. Trial 1 gave 28 x 28 images while trial 2 gave 64 x 64 images.
 
 The following is an example output of a couple of epochs while the model is running:
 
