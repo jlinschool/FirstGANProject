@@ -25,4 +25,5 @@ For introduction on the topic of GANs, the following articles were of great help
 The images were originally placed inside of a Google Drive folder that is shared on the main page of this repository. This required a mounting of the drive to the Google Colab environment ([tutorial](https://www.marktechpost.com/2019/06/07/how-to-connect-google-colab-with-google-drive/)). Image sizes were put through the preprocessing step (scaling), cached/prefetch, shuffled, and then batched. These were also done to allow the model to run smoothly. The generator and discriminator were then built and the functional class was coded and compiled. These steps can all be found in the .ipynb in the repository. Finally, the callback was constructed in order to monitor the process of each subsequent epoch. Some notable elements of the callback include: 
 - saving of the models / overwriting every 5 models run
 - printing of loss metrics as well as corresponding epoch iteration number
+
 The following is an example output of a couple of epochs while the model is running:
