@@ -52,3 +52,10 @@ Unfortunately, due to computing restrictions, trial 2 was stopped after epoch 49
 
 # Future Pursuits
 The biggest limitation on this project was computing resources. Most importantly, extensive use of platforms such as AWS or Google Cloud would have allowed for more flexible allocation of GPU's necessary for this project. Simple laptops would run the code very slowly and, unfortunately, that is what we have. Beyond computing, more training images (though requiring longer compute time) would also be a good idea. To combat symptoms of mode collapse as well as optimizatized computations, Wasserstein loss could be a possibility for the discriminator. Finally, more knowledge and experience with differing GAN architectures would be extremely helpful in navigating additional workings. The repository linked [here](https://github.com/unit8co/vegans) provides a pretty cool introduction to different previously developed GAN models (optimized for different purposes, of course).
+
+# Further Learning and Additional Credits
+Ideas as well as code / examples were also derived from the following websites (not mentioned in any of the sections above): 
+- https://arxiv.org/abs/1701.00160 (Tutorial by Ian Goodfellow on GANs)
+- https://arxiv.org/abs/1406.2661 (Original Goodfellow paper mentioning GANs)
+- https://github.com/ghanashyamvtatti/PokeGAN (Pretty cool POKEGan Project)
+- https://github.com/tensorfreitas/DCGAN-for-Bird-Generation (Also cool bird image generation GAN)
