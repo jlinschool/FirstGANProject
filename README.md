@@ -26,6 +26,8 @@ The images were originally placed inside of a Google Drive folder that is shared
 - saving of the models / overwriting every 5 models run (should be in same folder as code file)
 - printing of loss metrics as well as corresponding epoch iteration number
 
+Another important element of this training process was the 
+
 The following is an example output of a couple of epochs while the model is running:
 
 <img width="478" alt="process" src="https://user-images.githubusercontent.com/98007808/235817852-a5f95cef-0174-4071-a84b-74d929e72b12.png">
