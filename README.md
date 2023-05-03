@@ -26,10 +26,14 @@ The images were originally placed inside of a Google Drive folder that is shared
 - saving of the models / overwriting every 5 models run (should be in same folder as code file)
 - printing of loss metrics as well as corresponding epoch iteration number
 
-Another important element of this training process was the two distinct ouptut image sizes passed to the layers of the neural network. Trial 1 gave 28 x 28 images while trial 2 gave 64 x 64 images.
+Another important element of this training process was the two distinct ouptut image sizes passed to the layers of the neural network. Trial 1 gave 28 x 28 images while trial 2 gave 64 x 64 images. Trial 1 was performed with ~1000 training images while trial 2 was performed with ~3000 training images.
 
 The following is an example output of a couple of epochs while the model is running:
 
 <img width="478" alt="process" src="https://user-images.githubusercontent.com/98007808/235817852-a5f95cef-0174-4071-a84b-74d929e72b12.png">
 
 # Results 
+
+## Trial 1 (after 300 epochs)
+![generated_img_333_1](https://user-images.githubusercontent.com/98007808/235822577-526ffe85-2038-4cc0-8416-e9e5da3c32b7.png)
+
