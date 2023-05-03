@@ -35,6 +35,9 @@ The following is an example output of a couple of epochs while the model is runn
 # Results 
 
 ## Trial 1 (after 300 epochs)
+
+Keep in mind that these are 28 x 28!
+
 <img width="698" alt="3001" src="https://user-images.githubusercontent.com/98007808/235822678-fc87441b-b492-41a2-bca3-8973df8222a6.png">
 <img width="706" alt="30002" src="https://user-images.githubusercontent.com/98007808/235822687-26630dbb-266f-46a3-9127-602ff153daa9.png">
 
