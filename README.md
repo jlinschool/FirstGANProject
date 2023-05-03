@@ -10,4 +10,14 @@ The dataset was limited to ~1000 for try 1 of our implementation and ~3000 for t
 ![image_00043](https://user-images.githubusercontent.com/98007808/235814354-6adfdde6-0aef-46eb-b285-9c5f9013ddb8.jpg)
 
 # GANs
-Much of the GAN architecture was based on a GitHub repository that utilized convolutional kernels to build both the discriminator and generator. Originally, the structure was used to generate pictures of clothing. The link to that project is [link](https://github.com/nicknochnack/GANBasics/blob/main/FashionGAN-Tutorial.ipynb).
+Much of the GAN architecture was based on a GitHub repository that utilized convolutional kernels to build both the discriminator and generator. Originally, the structure was used to generate pictures of clothing. The link to that project is [link](https://github.com/nicknochnack/GANBasics/blob/main/FashionGAN-Tutorial.ipynb). Some notable features of the FashionGAN include: 
+
+- LeakyReLU activation used for all layers of generator except for last layer (Sigmoid).
+- Use of a dense layer in the final layer of the discriminator
+- Use of the Adam optimizer as well as the BinaryCrossEntropy metric for both generator and discriminator evaluation
+
+For introduction on the topic of GANs, the following articles were of great help:
+- [Basic Pseudocode Example / walkthrough](https://machinelearningmastery.com/how-to-code-the-generative-adversarial-network-training-algorithm-and-loss-functions/)
+- [Non-image data tutorial](https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/)
+- [Basic Knowledge blog](https://danieltakeshi.github.io/2017/03/05/understanding-generative-adversarial-networks/)
+
